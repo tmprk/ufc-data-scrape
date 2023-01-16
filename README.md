@@ -15,7 +15,7 @@ from ufcstats.com. This way seems more efficient
 than saving 5000+ fighters from ufcstats directly.
 
 ***Disclaimer: This is for educational and non-commercial purposes 
-and projects. I tried to add some time between each request..***
+and projects. I tried to space out requests to not spam their server...***
 
 ## Example json output (complete data [here](https://raw.githubusercontent.com/tmprk/ufc-data-scrape/main/data/data_2023-01-16_06-03-35.json))
 
