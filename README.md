@@ -17,7 +17,7 @@ than saving 5000+ fighters from ufcstats directly.
 Disclaimer: This is for educational and non-commercial purposes 
 and projects. I tried to add some time between each request..
 
-## Example json output
+## Example json output (complete data [here](https://raw.githubusercontent.com/tmprk/ufc-data-scrape/main/data/data_2023-01-16_06-03-35.json))
 
 <p align="center">
   <img src="../main/images/data_example.png" width="300"/>
