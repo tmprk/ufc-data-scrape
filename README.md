@@ -9,13 +9,13 @@ another for pulling `.csv` or `.json` data from
 ufcstats.com
 
 There is also a main script called 
-`wikiToUFCToJSON.py` to fetch the roster from 
+`wikiToUFCToJSON.py` to fetch the active roster from 
 wikipedia and then fill in stats and fight history 
 from ufcstats.com. This way seems more efficient 
 than saving 5000+ fighters from ufcstats directly.
 
-Disclaimer: This is for educational and non-commercial purposes 
-and projects. I tried to add some time between each request..
+***Disclaimer: This is for educational and non-commercial purposes 
+and projects. I tried to add some time between each request..***
 
 ## Example json output (complete data [here](https://raw.githubusercontent.com/tmprk/ufc-data-scrape/main/data/data_2023-01-16_06-03-35.json))
 
@@ -26,7 +26,7 @@ and projects. I tried to add some time between each request..
 ## Installation
 
 First get your api keys for scraperapi, zenrows, 
-or scraperbox, which 1000-5000 free requests per 
+or scraperbox, which have 1000-5000 free requests per 
 month. Insert that at the top of the script, or in 
 an .env file.
 
