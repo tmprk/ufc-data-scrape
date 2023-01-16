@@ -50,6 +50,7 @@ just uncomment it and insert your MONGO_URI
 
 - Pull data from UFC.com/athletes/all directly.
 - Run this as a cron job using anything you want
+  - Some free options: [Github Actions](https://canovasjm.netlify.app/2020/11/29/github-actions-run-a-python-script-on-schedule-and-commit-changes/), [PythonAnywhere](https://www.pythonanywhere.com/), [Fly.io](https://fly.io/)
 - Instead of splitting this into many scripts, we 
 could allow for CLI options to specify whether a 
 user wants basic or detailed data, and `.csv` or 
