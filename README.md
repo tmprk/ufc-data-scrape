@@ -20,7 +20,8 @@ and projects. I tried to space out requests to not spam their server...***
 ## Example json output (complete data [here](https://raw.githubusercontent.com/tmprk/ufc-data-scrape/main/data/data_2023-01-16_06-03-35.json))
 
 <p align="center">
-  <img src="../main/images/data_example.png" width="300"/>
+  <img src="../main/images/data_example.png" height="400"/>
+  <img src="../main/images/csv_example.png" height="300"/>
 </p>
 
 ## Installation
