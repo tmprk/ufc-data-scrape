@@ -17,9 +17,11 @@ than saving 5000+ fighters from ufcstats directly.
 Disclaimer: This is for educational and non-commercial purposes 
 and projects. I tried to add some time between each request..
 
-## Example
+## Example json output
 
-
+<p align="center">
+  <img src="../main/images/data_example.png" width="300"/>
+</p>
 
 ## Installation
 
