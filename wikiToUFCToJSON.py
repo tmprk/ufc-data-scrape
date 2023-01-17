@@ -591,7 +591,7 @@ def getHeader():
 
 
 hard_coded_headers = [
-    'path'
+    'path',
     'Reach',
     'Stance',
     'W',
@@ -680,7 +680,7 @@ def getAllPages():
                 for (index, element) in enumerate(cols[5::]):
                     # check for last td, it has belt
                     if element == last_item:
-                        fighter_dict_ref['belt'] = 'C' if element.find(
+                        fighter_dict_ref['Belt'] = 'C' if element.find(
                             'img') else ''
                     else:
                         current_key = hard_coded_headers[index + 1]
