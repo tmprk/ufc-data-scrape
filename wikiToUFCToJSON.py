@@ -552,6 +552,7 @@ for index, table in enumerate(tables):
             elif index == 1:
                 wiki_each_fighter_row_dict['first'] = newFirst
                 wiki_each_fighter_row_dict['last'] = newLast
+                wiki_each_fighter_row_dict['name'] = newName
                 fighter_names.append(cleanedName)
             else:
                 # Get the text of the td element
@@ -601,7 +602,7 @@ hard_coded_headers = [
     'Sig_Strike_Accuracy',
     'Sig_Strike_absorbed_/_min',
     'Sig_Strike_defense',
-    'Avg._Takedown_/_15_min',
+    'Avg_Takedown_/_15_min',
     'Takedown_accuracy',
     'Takedown_defense',
     'Avg_sub_attempts_/_min'
@@ -612,7 +613,7 @@ hard_coded_headers = [
 
 
 # get all rows for each letter
-def getRowsOfPage():
+def getAllPages():
     all_rows = []
     for character in string.ascii_lowercase:
         counter = 0
@@ -645,7 +646,7 @@ def getRowsOfPage():
                 'Sig_Strike_Accuracy': None,
                 'Sig_Strike_absorbed_/_min': None,
                 'Sig_Strike_defense': None,
-                'Avg._Takedown_/_15_min': None,
+                'Avg_Takedown_/_15_min': None,
                 'Takedown_accuracy': None,
                 'Takedown_defense': None,
                 'Avg_sub_attempts_/_min': None
@@ -691,7 +692,7 @@ def getRowsOfPage():
                     'Str. Acc.': 'Sig_Strike_Accuracy',
                     'SApM': 'Sig_Strike_absorbed_/_min',
                     'Str. Def': 'Sig_Strike_defense',
-                    'TD Avg.': 'Avg._Takedown_/_15_min',
+                    'TD Avg.': 'Avg_Takedown_/_15_min',
                     'TD Acc.': 'Takedown_accuracy',
                     'TD Def.': 'Takedown_defense',
                     'Sub. Avg.': 'Avg_sub_attempts_/_min'
@@ -796,7 +797,7 @@ def getRowsOfPage():
 
 if __name__ == "__main__":
     checkProxy()
-    getRowsOfPage()
+    getAllPages()
 
     executionTime = (time.time() - startTime)
     print('Execution time in seconds: ' + str(executionTime))
